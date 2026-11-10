@@ -9,42 +9,49 @@
             header{width:640px;background-color:bisque;}
             h1{margin-left:20px;font-size:32px;color:crimson;}
             header p{margin-left:20px;}
-            nav {padding-top:5px;padding-bottom:5px;overflow:hidden;background-color:burlywood;}
+            nav {padding-top:5px;padding-bottom:5px;padding-left:10px;overflow:hidden;background-color:burlywood;}
             nav ul{ list-style-type:none; }
-            nav li{width:298px;height:38px;margin-left:5px;margin-right:5px;padding:5px;line-height:38px;float:left;border:solid 1px brown;background-color:bisque;}
-            main{clear:both;width:620px;padding-top:10px;padding-bottom:10px;padding-left:20px;background-color:antiquewhite;overflow:hidden;}
+            nav li{width:188px;height:38px;margin-right:10px;padding:5px;line-height:38px;float:left;border:solid 1px brown;background-color:bisque;}
+            main{clear:both;width:630px;padding-top:10px;padding-bottom:10px;padding-left:10px;background-color:antiquewhite;overflow:hidden;}
             h2{font-size:24px;color:darkred;}
-            .sweets{width:270px;padding:10px;margin-top:10px;margin-right:20px;float:left;background-color:burlywood;}
+            .material{width:200px;margin-top:20px;margin-right:10px;float:left;background-color:burlywood;}
+            .material img{display:block;}
             h3{font-size:20px;color:brown;}
             footer{clear:both;width:600px;padding:20px;text-align:right;background-color:bisque;}
         </style>
     </head>
     <body>
         <header>
-            <h1>マテリアルスイーツ</h1>
-            <p>伝統と素材にこだわった季節のフルーツを使用したスイーツのお店です。</p>
-            <img src="images/header.jpg"  alt="金のモンブランヘッダー画像">
+            <h1>素材について</h1>
+            <p>当店のスイーツは、国内産の素材・・・・・・・</p>
+            <img src="images/material.jpg" alt="ヘッダー画像">
             <nav>
                 <ul>
-                    <li><a href="#">モンブラン</a></li>
-                    <li><a href="#">マカロン</a></li>
+                    <li><a href="#chestnut">栗</a></li>
+                    <li><a href="#eheat">薄力粉</a></li>
+                    <li><a href="#sugar">砂糖</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <article>
-                <h2>今月のお勧めスイーツ</h2>
-                <p>今月のお勧めスイーツを紹介します。</p>
-                    <section class="sweets">
-                        <h3>モンブラン</h3>
-                        <p>今年採れた国内産の栗を使用したケーキです。</p>
-                        <img src="images/Blanc2.jpg" alt="モンブランの写真">
-                    </section>
-                    <section class="sweets">
-                        <h3>マカロン</h3>
-                        <p>沖縄産の砂糖を使用したマカロンです。</p>
-                        <img src="images/macron2.jpg" alt="マカロンの写真">
-                    </section>
+                <h2>ピックアップ素材</h2>
+                <p>素材はすべて厳選して・・・・・・・・・・・・・・・・・・・・・・・。。</p>
+                <section class="material">
+                    <h3 id="chestnut">栗</h3>
+                    <p>岐阜産の栗・・・・・・・・・。</p>
+                    <img src="images/chestnut1.jpg" alt="栗の写真">
+                </section>
+                <section class="material">
+                    <h3 id="wheat">薄力粉</h3>
+                    <p>薄力粉はすべて北海道産を使用しています。</p>
+                    <img src="images/wheat1.jpg" alt="小麦の写真">
+                </section>
+                <section class="material">
+                    <h3 id="sugar">砂糖</h3>
+                    <p>砂糖は沖縄産と北海道産を使い分けています。</p>
+                    <img src="images/sugar1.jpg" alt="サトウキビの写真">
+                </section>
             </article>
         </main>
         <footer>
