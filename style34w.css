@@ -30,7 +30,7 @@
                 overflow: hidden;
                 background-color: burlywood;
             }
-            nav ul{list-style: none;}
+            nav ul{list-style-type: none;}
             nav li{
                 width: 298px;
                 height: 38px;
