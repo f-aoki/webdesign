@@ -64,6 +64,9 @@
                 float: left;
                 background-color: burlywood;
             }
+            .sweets img{
+                        display:block;
+            }
             h3{
                 font-size: 20px;
                 color: brown;
